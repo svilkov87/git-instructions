@@ -18,3 +18,8 @@ https://git-for-windows.github.io/ -качаем и устанавливаем
 и.. git push -u origin master
 гит хаб запросит авторизацию - ок
 проверяем на гитхабе, повился ли репозиторий
+
+//клонируем с удал репоз на локал машину
+git clone git://github.com/svilkov87/git-instructions.git - проект зальется на комп
+потом
+git fetch https://github.com/svilkov87/git-instructions.git
