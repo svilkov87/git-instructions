@@ -1,0 +1,20 @@
+//установка
+https://git-for-windows.github.io/ -качаем и устанавливаем
+
+выбираем use git fron the windows prompt
+после установки гита, указываем имя и адрес эл почты git config --global user.name "sergey vilkov" и git config --global user.email "svilkov87@mail.ru"
+посмотреть информацию - git config --list
+
+//создание репозитория
+//в нужном каталоге выбираем правой кнопкой мыши - git bash here
+инициализируем git в проекте git init
+смотрим статус git status
+добавлем к коммиту git add .
+первй коммит git commit -m "firstcommit"
+
+//github
+содаем новый репозиторий на гитхабе
+копируем строку по типу git remote add origin https://github.com/svilkov87/resumesv.git и вставляем в консоль
+и.. git push -u origin master
+гит хаб запросит авторизацию - ок
+проверяем на гитхабе, повился ли репозиторий
